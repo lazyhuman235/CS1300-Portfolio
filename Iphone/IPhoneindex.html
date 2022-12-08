@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>YB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <nav>
+    <div class="header">
+        <a href="../index.html" class="logo"> YB </a>
+        <div class="header-right">
+          <a href="../index.html#About">About</a>
+          <a href="https://jeffhuang.com/">Resume</a>
+          <a href="../index.html#Portfolio">Work</a>
+        </div>
+      </div>
+    </nav>
+    <section class="Home">
+        <br><br><br><br><br>
+        <div class="home-hey">  
+            <p> < / The Iphone Store using React.js! > </p>
+        </div>
+        
+        <br>
+    </section>
+<br>
+<br>
+
+<section id="About">
+    <div class="text-center">
+        <h2> Overview</h2>
+        <h5>This is React based webpage for iPhones. This webpage is list-based interface
+          that allows users to add or remove various iPhone variants to their favorites and aggregates them to
+        to provide total amount of all variants in the favorites list. There is also a filtering and sorting functionality.
+
+        <br><br>
+        <h2>More about the Application</h2>
+
+        This website consists of 12 different variants of iPhone 14 pros which are displayed in list-based format
+        and user can add these iPhones 
+        to their favorites list. There are 3 storage options to choose from (128gb,256gb,512gb) and 
+        4 different color options (Black, White, Gold, Purple). There is a button which allows the user 
+        to add or remove that specific variant of iPhone to their favorites list. Adding to this list helps 
+        the user understand the total amount the user might have to pay for all of the products in the favorites 
+        list. There is a filter menu which enables users to filter products by storage and color options. 
+        There is also a sorting feature to sort the iPhones by price.<br><br>
+
+
+        <h2>Technical Details</h2>
+        The page is divided into three components: Filter, Product and ProductList. 
+        Product component takes care of the structing of information of a variant of an iPhone and 
+        this is used by the ProductList which also handles the functionality of the favorites button. 
+        The Filter component consist of the filtering activites and options that are available 
+        (filter by storage, filter by color, sort by price), the Reset facility and also displays the 
+        total price for all the items in favorites list. I used the concept of destructing and I destructured the 
+        properties coming into our component into specific variables. State changes are primarily triggered on two 
+        occasions by the user. The first one is tracking the state of the particular iphone variant to check if 
+        it is being added or removed from the favorites list. The second one is tracking the state of all the 
+        filter options available to the user to produce intended results.
+
+<br><br>
+        
+        This is how the end product looks like:<br><br>
+        <img src="ReactProject.png" width="50%">
+        <br>
+        <br>
+        <h2>Usability Principles Considered</h2>
+        - The page is effective (reaches the goal) and efficient (reaches the goal quickly).
+        <br>- User has the power to control what they want to see.
+        <br>- Terms, icons, and layouts all follow consistency and fit in together.
+        <br>- Design and layout is comprehensible at first sight.
+        <br>- User has the ability to complete their task and does not get lost, they have all the information they need to know at any time, in which part of the application they are in, which actions can be executed and how they are triggered.
+        <br>- Web page reacts to the user’s input at any time and informs them about events actively.
+        <br>- All the components work as per instructions and page does not break
+        
+        
+        <br><br>
+        <a href="https://lazyhuman235.github.io/react-development/" target="_blank"> <button type="button" class="btn btn-outline-secondary">Link to deployed site</button></a>
+    
+
+        <br><br>    
+     </div>
+
+</section>
+
+
+   
+
+
+    <section id="footer">
+   
+    <!-- footer -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
+
+      <footer class="text-center text-white" style="background-color:black;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="mailto: info@brown.edu"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="https://www.linkedin.com/in/profjeffhuang/"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://www.github.com/lazyhuman235"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+            Copyright 2022 © YB
+        <br><br>
+      </footer>
+
+    </section>
+
+
+
+</html>
+
