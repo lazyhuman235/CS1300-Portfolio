@@ -104,3 +104,16 @@ body {
     padding-left: 140px;
     padding-right: 140px;
 }
+
+
+.col-lg-6:hover{
+  
+  transform:scale(1.05);
+}
+
+.col-lg-6{
+
+transition:.3s;
+
+}
+
